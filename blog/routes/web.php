@@ -26,4 +26,4 @@ Route::POST('posts/{id}/update', [PostController::class, 'update'])->name('posts
 
 
 //search route
-Route::get('/posts/search', [PostController::class, 'search']);
+Route::get('/posts/search', [PostController::class, 'search'])->name('posts.search');
